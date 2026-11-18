@@ -1,0 +1,35 @@
+.business-model{background:#f5e8df}
+.model-columns{display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px;margin-top:4px}
+.model-columns article{border-top:1px solid #cdbdaf;padding-top:20px}
+.model-columns h3{font:normal 35px/1.15 Georgia,serif;margin:18px 0 20px}
+.model-columns p{font-size:23px;line-height:1.4;margin:17px 0}
+.model-columns .small{font-size:20px;line-height:1.4}
+.model-price{font:normal 49px/1.2 Georgia,serif;letter-spacing:-1px;color:#874d3d;margin:24px 0 21px;white-space:nowrap}
+.model-price span{font:normal 22px Arial,sans-serif;color:var(--muted);letter-spacing:0}
+.model-bottom{display:grid;grid-template-columns:1fr 1.45fr;gap:65px;border-top:1px solid #cdbdaf;margin-top:26px;padding-top:24px}
+.model-bottom>div:first-child{display:grid;grid-template-columns:125px 1fr;gap:12px 22px;align-items:center}
+.model-bottom .eyebrow{grid-column:1/-1}
+.model-bottom strong{font:normal 68px/1 Georgia,serif;color:#874d3d;white-space:nowrap}
+.model-bottom p{font-size:20px;line-height:1.4}
+.model-bottom ul{padding-left:25px;margin:13px 0 0;font-size:21px;line-height:1.6}
+.canvas{background:#f3ecdf}
+.canvas h2{font-size:48px;margin:24px 0 13px;height:auto}
+.canvas-subtitle{font-size:21px;color:var(--muted);margin:0 0 22px}
+.canvas-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:235px 205px 125px;grid-template-areas:'problem solution value advantage customers' 'problem metrics value channels customers' 'costs costs costs revenue revenue';gap:1px;background:#c9c0b0;border:1px solid #c9c0b0}
+.canvas-grid article{background:#faf7ef;padding:16px 18px;min-width:0}
+.canvas-grid article>span{font-size:15px;color:var(--muted);display:block;margin-bottom:10px}
+.canvas-grid h3{font-size:22px;line-height:1.22;margin:0 0 15px;font-weight:600}
+.canvas-grid ul{font-size:20px;line-height:1.37;padding-left:21px;margin:0}
+.canvas-grid li+li{margin-top:8px}
+.canvas-grid p{font-size:20px;line-height:1.4;margin:0 0 14px}
+.canvas-grid ul+p{margin-top:25px;font-size:18px;color:var(--muted)}
+.canvas-grid .canvas-value{font:normal 34px/1.15 Georgia,serif;margin:25px 0}
+.canvas-grid .c-value{background:#e3e4ee}
+.canvas-grid .c-costs{background:#e3e8da}
+.canvas-grid .c-revenue{background:#efddd3}
+.c-problem{grid-area:problem}.c-solution{grid-area:solution}.c-value{grid-area:value}.c-advantage{grid-area:advantage}.c-customers{grid-area:customers}.c-metrics{grid-area:metrics}.c-channels{grid-area:channels}.c-costs{grid-area:costs}.c-revenue{grid-area:revenue}
+.canvas-grid .c-costs,.canvas-grid .c-revenue{padding-top:12px}
+.canvas-grid .c-costs>span,.canvas-grid .c-revenue>span{display:inline-block;margin-right:10px;margin-bottom:5px}
+.canvas-grid .c-costs h3,.canvas-grid .c-revenue h3{display:inline-block;margin-bottom:8px}
+
+.canvas-grid p:last-child{margin-bottom:0}
