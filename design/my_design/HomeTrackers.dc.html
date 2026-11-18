@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ReLog Trackers</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+button{font:inherit}
+a{color:inherit}
+@keyframes relogShine {
+0% { transform: translateX(-160%) skewX(-16deg); opacity: 0; }
+3% { opacity: 1; }
+18% { transform: translateX(330%) skewX(-16deg); opacity: 1; }
+21% { transform: translateX(330%) skewX(-16deg); opacity: 0; }
+100% { transform: translateX(330%) skewX(-16deg); opacity: 0; }
+}
+</style>
+</helmet>
+<div onClick="{{rootClick}}" style="width: 390px; height: 844px; box-sizing: border-box; background: #F1E4CF; display: flex; flex-direction: column; padding: 72px 28px 44px 28px; font-family: 'Inter', system-ui, sans-serif; color: #141413">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<h1 style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-weight: 700; font-size: 44px; line-height: 1.1; letter-spacing: -0.02em; color: #141413; font-style: italic">Hello Anna</h1>
+<button onClick="{{next}}" aria-label="Period: {{periodLabel}}. Tap to change" style="width: 124px; height: 40px; box-sizing: border-box; border-radius: 20px; background: #FAF6EC; border: 1px solid rgba(20,20,19,0.12); color: #141413; font-size: 15px; font-weight: 500; cursor: pointer">{{periodLabel}}</button>
+</div>
+<div style="margin-top: 28px; display: flex; flex-direction: column; gap: 14px">
+<a href="{{fitHref}}" style="position: relative; overflow: hidden; height: 168px; box-sizing: border-box; padding: 22px 28px; border-radius: 48px; background: #DCE0EE; border: 1px solid rgba(27,29,46,0.08); box-shadow: {{fitRing}}; transition: box-shadow 0.4s ease; text-decoration: none; color: #1B1D2E; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 12px; height: 12px; border-radius: 6px; background: #4A52A6"></span>
+<span style="font-family: 'Newsreader', Georgia, serif; font-size: 21px; font-weight: 700">Fitness</span>
+<svg style="margin-left: auto" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#1B1D2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l5 5-5 5"></path></svg>
+</div>
+<div>
+<div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: 'Newsreader', Georgia, serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em; line-height: 1.1">{{fitBig}}</span><span style="font-size: 15px; font-weight: 500">{{fitUnit}}</span></div>
+<div style="margin-top: 2px; font-size: 14px; color: #4A4D68">{{fitSub}}</div>
+</div>
+<span aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: 0; width: 45%; pointer-events: none; opacity: 0; background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%); animation: {{shine0}}"></span>
+</a>
+<a href="{{expHref}}" style="position: relative; overflow: hidden; height: 168px; box-sizing: border-box; padding: 22px 28px; border-radius: 48px; background: #DDE5D3; border: 1px solid rgba(31,42,34,0.08); box-shadow: {{expRing}}; transition: box-shadow 0.4s ease; text-decoration: none; color: #1F2A22; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 12px; height: 12px; border-radius: 6px; background: #2F5D46"></span>
+<span style="font-family: 'Newsreader', Georgia, serif; font-size: 21px; font-weight: 700">Expenses</span>
+<svg style="margin-left: auto" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#1F2A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l5 5-5 5"></path></svg>
+</div>
+<div>
+<div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: 'Newsreader', Georgia, serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em; line-height: 1.1">{{expBig}}</span><span style="font-size: 15px; font-weight: 500">{{expUnit}}</span></div>
+<div style="margin-top: 2px; font-size: 14px; color: #475A4C">{{expSub}}</div>
+</div>
+<span aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: 0; width: 45%; pointer-events: none; opacity: 0; background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%); animation: {{shine1}}"></span>
+</a>
+<a href="{{hlHref}}" style="position: relative; overflow: hidden; height: 168px; box-sizing: border-box; padding: 22px 28px; border-radius: 48px; background: #F3D9D6; border: 1px solid rgba(42,21,20,0.08); box-shadow: {{hlRing}}; transition: box-shadow 0.4s ease; text-decoration: none; color: #2A1514; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 12px; height: 12px; border-radius: 6px; background: #A8353A"></span>
+<span style="font-family: 'Newsreader', Georgia, serif; font-size: 21px; font-weight: 700">Health</span>
+<svg style="margin-left: auto" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#2A1514" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l5 5-5 5"></path></svg>
+</div>
+<div>
+<div style="display: flex; align-items: baseline; gap: 8px"><span style="font-family: 'Newsreader', Georgia, serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em; line-height: 1.1">{{hlBig}}</span><span style="font-size: 15px; font-weight: 500">{{hlUnit}}</span></div>
+<div style="margin-top: 2px; font-size: 14px; color: #6E4743">{{hlSub}}</div>
+</div>
+<span aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: 0; width: 45%; pointer-events: none; opacity: 0; background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%); animation: {{shine2}}"></span>
+</a>
+</div>
+<div style="flex: 1"></div>
+<div style="position: relative; width: 100%; height: 64px">
+<button onClick="{{logClick}}" aria-pressed="{{logOn}}" style="position: absolute; top: 0; left: {{logLeft}}; width: {{logW}}; height: 64px; box-sizing: border-box; padding: 0; border-radius: 32px; background: {{logBg}}; color: {{logFg}}; border: 1px solid rgba(20,20,19,0.12); font-family: 'Newsreader', Georgia, serif; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; opacity: {{logOpacity}}; visibility: {{logVis}}; cursor: pointer; transition: left 0.45s cubic-bezier(0.4, 0, 0.2, 1), width 0.45s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, visibility 0.45s, background 0.3s ease, color 0.3s ease">Log</button>
+<div style="position: absolute; top: 0; left: {{plusLeft}}; width: {{plusW}}; height: 64px; box-sizing: border-box; padding-right: 11px; border-radius: 32px; background: #FAF6EC; border: 1px solid rgba(20,20,19,0.10); box-shadow: 0 1px 2px rgba(20,20,19,0.04), 0 8px 24px rgba(120,84,40,0.10); overflow: hidden; display: flex; align-items: center; justify-content: flex-end; transition: left 0.45s cubic-bezier(0.4, 0, 0.2, 1), width 0.45s cubic-bezier(0.4, 0, 0.2, 1)">
+<span style="margin-right: 16px; font-family: 'Newsreader', Georgia, serif; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; color: #141413; opacity: {{createTextOpacity}}; transition: opacity 0.3s ease 0.15s">Create a new habit</span>
+<span aria-hidden="true" style="position: absolute; top: 0; bottom: 0; right: 67px; display: flex; align-items: center; font-family: 'Newsreader', Georgia, serif; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; color: #141413; opacity: {{otherTextOpacity}}; transition: opacity 0.3s ease 0.15s">Other?</span>
+<span style="position: relative; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 20px; background: #BF5B3A">
+<svg style="position: absolute; top: 11px; left: 11px; opacity: {{plusIconOpacity}}; transition: opacity 0.3s ease" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg>
+<svg style="position: absolute; top: 11px; left: 11px; opacity: {{arrowIconOpacity}}; transition: opacity 0.3s ease" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"></path></svg>
+</span>
+<button onClick="{{plusClick}}" aria-label="Create a new habit" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent; border: 0; border-radius: 32px; cursor: pointer; visibility: {{plusBtnVis}}"></button>
+<a href="HomeOpen.dc.html" aria-label="Create a new habit" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 32px; visibility: {{createLinkVis}}"></a>
+<a href="LogOther.dc.html" aria-label="Other: log something that affects every tracker" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 32px; visibility: {{otherLinkVis}}"></a>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+const labels = ['Today', 'These days', 'This week', 'This month'];
+const data = [
+{ f: ['820', 'kcal left', 'Of 2,200 kcal goal'], e: ['€42', 'left today', 'Of €60 daily budget'], h: ['7h 20m', 'rest', 'Last night'] },
+{ f: ['2', 'workouts to do', 'In the next 3 days'], e: ['€126', 'left to spend', 'For the next 3 days'], h: ['7h 05m', 'avg rest', 'Last 3 nights'] },
+{ f: ['4 of 5', 'workouts', 'Diet 86% on track'], e: ['€310', 'left', 'Of €420 weekly budget'], h: ['7h 02m', 'avg rest', 'Best night 8h'] },
+{ f: ['14 of 20', 'workouts', 'Diet 82% on track'], e: ['€516', 'left', 'Of €1,800 monthly budget'], h: ['6h 58m', 'avg rest', '22 of 30 nights over 7h'] }
+];
+const s = this.state || {};
+const i = s.p || 0;
+const mode = s.mode || 'idle';
+const d = data[i];
+const logOn = mode === 'log';
+const create = mode === 'create';
+const shine = (delay) => logOn ? 'relogShine 7s ease-in-out ' + delay + 's infinite' : 'none';
+return {
+periodLabel: labels[i],
+next: () => this.setState({ p: (i + 1) % 4 }),
+fitBig: d.f[0], fitUnit: d.f[1], fitSub: d.f[2],
+expBig: d.e[0], expUnit: d.e[1], expSub: d.e[2],
+hlBig: d.h[0], hlUnit: d.h[1], hlSub: d.h[2],
+fitHref: logOn ? 'LogFitness.dc.html' : 'Fitness.dc.html',
+expHref: logOn ? 'LogExpenses.dc.html' : 'Expenses.dc.html',
+hlHref: logOn ? 'LogHealth.dc.html' : 'Health.dc.html',
+fitRing: logOn ? '0 0 0 2px #4A52A6, 0 0 24px rgba(74,82,166,0.45)' : '0 0 0 0 rgba(74,82,166,0)',
+expRing: logOn ? '0 0 0 2px #2F5D46, 0 0 24px rgba(47,93,70,0.45)' : '0 0 0 0 rgba(47,93,70,0)',
+hlRing: logOn ? '0 0 0 2px #A8353A, 0 0 24px rgba(168,53,58,0.40)' : '0 0 0 0 rgba(168,53,58,0)',
+shine0: shine(0), shine1: shine(0.3), shine2: shine(0.6),
+logOn: logOn,
+logLeft: create ? '140px' : '0px',
+logW: create ? '0px' : '132px',
+logOpacity: create ? '0' : '1',
+logVis: create ? 'hidden' : 'visible',
+logBg: logOn ? '#141413' : '#FAF6EC',
+logFg: logOn ? '#FAF6EC' : '#141413',
+plusLeft: create ? '32px' : (logOn ? '178px' : '270px'),
+plusW: create ? '270px' : (logOn ? '156px' : '64px'),
+createTextOpacity: create ? '1' : '0',
+otherTextOpacity: logOn ? '1' : '0',
+plusIconOpacity: logOn ? '0' : '1',
+arrowIconOpacity: logOn ? '1' : '0',
+plusBtnVis: mode === 'idle' ? 'visible' : 'hidden',
+createLinkVis: create ? 'visible' : 'hidden',
+otherLinkVis: logOn ? 'visible' : 'hidden',
+logClick: (e) => {
+if (e && e.stopPropagation) e.stopPropagation();
+this._ts = Date.now();
+this.setState({ mode: logOn ? 'idle' : 'log' });
+},
+plusClick: (e) => {
+if (e && e.stopPropagation) e.stopPropagation();
+this._ts = Date.now();
+this.setState({ mode: 'create' });
+},
+rootClick: () => {
+if (Date.now() - (this._ts || 0) < 120) return;
+if (mode !== 'idle') this.setState({ mode: 'idle' });
+}
+};
+}
+}
+</script>
+</body>
+</html>

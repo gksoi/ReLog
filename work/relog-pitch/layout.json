@@ -1,0 +1,58 @@
+[
+  {
+    "page": 1,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "POVEZANO BELEŽENJE VSAKDANA\nReLog\n\nEn vnos.\nŠirša slika tvojega življenja.\n\nVadba, prehrana, zdravje, stroški in rutine.\nPrilagojeni tebi. Povezani med seboj.\n\nProduktni pitch / november 2026\n\nSpletna prototipa sta izdelana. Produkcijska aplikacija je naslednji korak.\n01 / 08"
+  },
+  {
+    "page": 2,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nProblem in izkušnja\nManj beleženja. Več uporabnega pregleda.\nPodatki so razpršeni\n\nTrening v eni aplikaciji.\nStroški v drugi.\nUrnik in zapiski nekje tretje.\n\nLjudje že iščejo povezave\n\nV javnih razpravah opisujejo dvojni vnos, neusklajene popravke in grafe brez uporabnega odgovora.\n\nKvalitativni signal potrebe.\nVelikost trga in pripravljenost plačati še nista potrjeni.\n\nDejanski spletni prototip / demo podatki\n1\naktivnost, več povezanih pogledov\n\nTracker izbereš in prilagodiš.\nPodatek vneseš enkrat.\n\nLog z iPhone widgeta.\nBrez AI klica.\n\nOblikovalski cilj: 1-3 dotiki za pogoste vnose; dostop do vseh podprtih vnosov v manj kot 8 dotikih.\n\nIzvorni widgeti so načrtovani; hitrost še ni izmerjena.\n\nPrimeri potreb: poljubne meritve / razdrobljeni podatki / klikljivi widgeti. Izbrane uporabniške anekdote, ne reprezentativna raziskava.\n02 / 08"
+  },
+  {
+    "page": 3,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nProdukt in arhitektura\nAI razume. Shranjena pravila računajo.\n01\nZmogljiv AI nastavi\n\nPolja, enote, widgeti in povezave.\nPreverjeni gradniki, shranjena verzija.\n\nOb ustvarjanju ali večji spremembi\n02\nHiter AI prevede log\n\nBesedilo ali prepis govora pretvori\nv dejstva po znani strukturi.\n\nRočni vnos in widget ta korak preskočita\n03\nMatematično jedro posodobi\n\nEn dogodek, dosledni izračuni.\nPopravek ali izbris popravi posledice.\n\nBrez novega AI računanja seštevkov\nPRIMER / BJJ\n\n»Danes 60 minut,\npet rund, vadili triangle.«\n\nObičajni termin: 90 minut.\nIzrecen vnos ima prednost.\nNapredek\t60 minut, runde, tehnike in zapiski\nVadba\tOcenjena poraba; brez dvojnega štetja sparinga\nStroški\tDejanska pot kot ocena; članarina ločeno mesečno\nRutine\tPozneje predlogi izvedljivega urnika s potrditvijo\n\nHrana: AI poišče živila, baza poda hranila, koda izračuna. Lokalni podatki in izračuni; majhen backend za AI. Lasten profil, zamenljiv ponudnik modelov.\n\nCiljna arhitektura; AI in native widgeti še niso produkcijsko povezani. Precedensi: Notion routing / Airtable formule / Intuit hibrid.\n03 / 08"
+  },
+  {
+    "page": 4,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nTrg in razlikovanje\nPodobni deli obstajajo. Priložnost je izvedba.\nPRIMERJALNIK\tJAVNO OPISANA ZMOŽNOST\nKeeperPal / LifesOS\tVeč področij in AI vnos ali vpogledi\nReflect / Track & Graph\tPoljubne meritve in povezane formule\nWHOOP / Oura\tBiometrični podatki in več AI/ML plasti\nFlowJitsu / BJJBuddy\tGlobina specializiranega BJJ dnevnika\nSheets / Notion / Shortcuts\tPrilagodljiva rešitev, ki jo uporabnik sestavi sam\n\nCelotnega našega toka pri konkurenci nismo potrdili. To ni dokaz, da ga nima nihče.\n\nNAŠA HIPOTEZA RAZLIKOVANJA\nHiter vnos.\nRazložljive povezave.\nPravilni popravki.\n\nAI pomaga sestaviti tracker.\nUporabnik dobi korist brez programiranja\nin brez vsakodnevnega pogovora z AI.\n\nNomie / 2023\n\nGostovanje zaprto. Ustanovitelj ni uspel monetizirati produkta.\n\nMoves / 2018\n\nZaprtje aplikacije in API opozarja na odvisnost od integracij.\n\nJavni opisi, brez praktičnega testa: KeeperPal / LifesOS / Reflect / Track & Graph / Nomie / Moves. Tudi Metriport je začel kot osebni tracker; danes gradi zdravstveno infrastrukturo.\n04 / 08"
+  },
+  {
+    "page": 5,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nPoslovni model\nNaročnina za prihranjen čas in povezan pregled\n4,99 €/ mesec\n\nZačetna cenovna hipoteza.\nPrimerjalni test tudi pri 7,99 €.\n\nPreizkus mora pokazati povezano korist.\nObseg AI in govora določimo po meritvah.\n\n49.900 €\nbruto mesečnih plačil pri 10.000 plačnikih × 4,99 €\n\nScenarij, ne napoved ali dobiček. Odšteti je treba davke, trgovino, AI/govor, infrastrukturo, podporo in marketing.\n\nOD KLIKA DO PLAČNIKA\nPredpostavka\tSrednji test\tZelo dober\nCena klika\t1,00 €\t0,60 €\nKlik → namestitev\t40 %\t50 %\nNamestitev → plačilo\t3 %\t8 %\nStrošek plačnika\t83,33 €\t15,00 €\n18 €\n\nprispevka v šestih plačanih mesecih,\nče ostane 3 €/mesec. Osip zniža mejo.\n\nZato najprej skupnosti in priporočila.\nVeč oglasov šele po dokazu redne uporabe.\n\nCene v EUR, prispevek in konverzije so ilustrativne predpostavke; produkcijski stroški niso izmerjeni. Kontekst: RevenueCat 2026 navaja 3,5 % mediano iOS Health & Fitness prenosi → plačniki do D35 v svojem vzorcu. To ni napoved za ReLog.\n05 / 08"
+  },
+  {
+    "page": 6,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nPrve stranke in naslednji dokaz\nNajprej dokaz v eni skupnosti. Nato širitev.\n\nZačetek: iPhone uporabniki z rednim športom, urnikom in stroški.\nBJJ klubi v Sloveniji za pilot; pozneje en angleški trg za oglase.\n\ndo 1.500 €\n90-dnevni okvir / poraba po doseženih mejnikih\n250 €\nProblem + pilot\n500 €\nKlubi + majhni ustvarjalci\n750 €\nPogojni testi kanalov\nApple Ads + Instagram + ponovitev\n15\npogovorov o resničnem\nnačinu beleženja\n10-15\nuporabnikov\ndelujočega pilota\n≥50 %\npilotne kohorte uporablja\nosnovni tok v 4. tednu\n≥5\ndejanskih plačnikov\npred nakupom oglasov\n\nDanes: dva spletna prototipa.\nNaslednji dokaz: ljudje se vrnejo, uporabijo povezave in plačajo.\n\nMejniki so interni cilji, ne traction. Razvoj in lastni čas nista v 1.500 €. Ob zamudi bete se faze zamaknejo. YC / Lean / Mom Test: ozek problem, opazovana uporaba, plačilo. Pred produkcijo: veljavne formule, zasebnost, jeziki in dovoljenja integracij; Strava omejuje želeno AI uporabo. Podrobni viri in predpostavke so tudi v PDF opombah.\n06 / 08"
+  },
+  {
+    "page": 7,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nPoslovni model\nPoslovni model ReLoga\nUPORABNIK IN KORIST\nRedni rekreativci\nz iPhonom\n\nZačetni pilot v BJJ skupnostih v Sloveniji.\n\nPrilagodljiv dnevnik poveže aktivnost, napredek, čas in stroške.\n\nPreizkus mora pokazati korist vsaj dveh povezanih trackerjev.\n\nPRIHODKI\nMesečna naročnina\n4,99 € ali 7,99 €\n\nCenovni hipotezi za primerjalni test.\n\nPaket, brezplačen preizkus in obseg AI/govora določimo po meritvah.\n\nKANALI IN STROŠKI\nNajprej skupnosti\n\nKlubi, priporočila in manjši ustvarjalci. Oglasi po dokazu uporabe in plačil.\n\nStroški: razvoj, podpora, AI/govor, shramba, trgovina in pridobivanje.\n\nRočni vnos in widget ne potrebujeta modelskega klica.\n\nILUSTRATIVNI SCENARIJ\n18 €\n\n3 € prispevka/mesec × 6 plačanih mesecev.\nOsip zniža dovoljeni strošek pridobitve.\n\nKAJ PREVERIMO PRED RASTJO\nAli se uporabnik vrne in razume povezano korist?\nAli dejanska plačila pokrijejo porabo in podporo?\nAli je polni CAC vzdržen glede na retencijo?\nDelovni poslovni model, 18. november 2026. Cene in prispevek so predpostavke, ne potrjen cenik ali dobiček. Pilotni okvir do 1.500 € ne vključuje razvoja in lastnega časa. Podrobne predpostavke so v PDF opombi.\n07 / 08"
+  },
+  {
+    "page": 8,
+    "width": 1600,
+    "height": 900,
+    "overflow": [],
+    "text": "ReLog\nLean Canvas\nLean Canvas\n\nDelovni model: devet hipotez, ki jih preverimo z uporabo in plačili.\n\n01\nProblem\nSledenje metrikam na različnih aplikacijah.\nDvojni vnosi in popravki.\nNi prilagodljivosti različnim hobijem.\n\nAlternative: več aplikacij, preglednice, Notion.\n\n04\nRešitev\nPrilagodljiv tracker.\nEn vnos, povezani pogledi.\nDosledni popravki.\n03\nEdinstvena vrednost\n\nEn vnos za vse.\n\nPovezanost med aktivnostmi.\n\n09\nTežko posnemljiva prednost\n\nŠe ni dokazana.\n\nKandidati: preverjene predloge in skupnost.\n\n02\nSegmenti uporabnikov\nRedni rekreativci z iPhonom.\nZačetni pilot: BJJ v Sloveniji.\n\nZgodnji uporabniki že beležijo v več orodjih.\n\n08\nKljučne metrike\nPrvi uspešen log.\nUporaba v 4. tednu.\nPlačila, CAC in prispevek.\n05\nKanali\nKlubi in priporočila.\nManjši ustvarjalci.\nPogojni oglasni testi.\n07Struktura stroškov\n\nRazvoj, podpora, AI/govor, shramba, trgovina in pridobivanje.\nPilotni okvir do 1.500 €; razvoj in lastni čas posebej.\n\n06Viri prihodkov\n\nPredlagana mesečna naročnina. Cenovni test 4,99 € / 7,99 €.\nObseg paketa in porabe potrdimo po validaciji.\n\nDelovne hipoteze, 18. november 2026. Ni potrjenega cenika, prihodkov ali tržne primernosti. AI in native widgeti še niso produkcijsko implementirani. Viri: dosedanja produktna, tržna in pridobitvena raziskava v PDF opombah.\n08 / 08"
+  }
+]
